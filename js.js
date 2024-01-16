@@ -49,5 +49,6 @@ document.querySelector("html").addEventListener("click", function () {
     const image = document.createElement("img");
     image.src = 'rick.jpg';
     document.body.appendChild(image);
+    document.querySelector("#rick").play()    
   }
   document.querySelector("html").addEventListener("click", showAlert);
